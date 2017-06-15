@@ -2,15 +2,100 @@
 <html>
 <head>
 	<title> Student Bio </title>
+	  
+<style>
+    /*
+			NOTE: Commenting is a bit different in CSS. 
+		  They start with forward-slash + asterisk 
+		  and end with back-slash + asterisk.
+		  */
+    /* h1 heading tag */
+    
+    h1 {
+      font-style: courier;
+      /* Put a 15-pixel margin at the bottom of the heading. */
+      margin-bottom: 15px;
+      /* Give an element a solid border. */
+      border-style: solid;
+      /* Render the border 5 pixels thick. */
+      border-width: 1px;
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 48px;
+      /* This will color the heading font white. */
+      color: pink;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: left;
+      /* The background of the heading element will now be black. */
+      background-color: white;
+    }
+    /* h2 heading tags */
+    
+    h2 {
+      /* Put a 15-pixel margin at the top of all h2 headings. */
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 24px;
+      text-align: left;
+    }
+    /* h3 heading tags */
+    
+    h3 {
+      margin-top: 15px;
+      font-size: 14px;
+      text-align: center;
+    }
+    /* All img tags */
+    
+    img {
+      /* 
+				Center a block element in the middle of its enclosing tag.
+				When you use the "auto" rule on both left and right margins, 
+				your browser will do the math necessary to center a block element.
+				*/
+      margin-left: left;
+      margin-right: auto;
+      /* Block display (more on this later) */
+      display: block;
+    }
+    /* All p tags */
+    
+    p {
+      text-align: left;
+      font-size: 14px;
+      /* Bold the text. */
+      font-weight: bold;
+    }
+    /* All unordered list tags */
+    
+    ul {
+      text-align: left;
+      font-size: 14px;
+      /* Give an element a solid border. */
+      border-style: solid;
+      /* Render the border 5 pixels thick. */
+      border-width: 1px;
+      /* Include bullets in the content flow. */
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      border-color: gray;
+      list-style-position: inside;
+    }
+  </style>
+
 </head>
 
 <body>
-	
+<header>
 	<h1> Student Bio </h1>
+</header>
+
+<div>
+
 	<h2> Cassie Butts </h2>
 
-	<img src="" alt="200x200" style="width:200px;height:200px;">
+	<img src="https://placehold.it/200x200" alt="Fun" style="width:200px;height:200px;">
 <br><br>
+
+<section>
 
 	<text> Hi, my name is Cassie. My favorite colors are blue and green. I love to eat. I love to hang out with my dogs. </text>
 
@@ -24,5 +109,8 @@
 		<li> GitHub: <a href="https://github.com/cassandralyb">Cassandralyb</a></li>
 		<li>Portfolio: Coming Soon</li>
 	</ul>
+
+</section>
+
 </body>
 </html>
