@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Student Bio </title>
+</head>
+
+<body>
+	<h1> Cassie Butts </h1>
+
+	<img href="">
+
+	<text> Hi, my name is Cassie. My favorite colors are blue and green. I love to eat. I love to hang out with my dogs. </text>
+
+	<h1> Contact Info </h1>
+
+	<ul>
+		<li> Email: <a href="cassandracode@gmail.com">CassandraCode@gmail.com</a></li>
+		<li type="square"> GitHub: <a href="https://github.com/cassandralyb">Cassandralyb</a></li>
+		<li>Portfolio: Coming Soon</li>
+	</ul>
